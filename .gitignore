@@ -12,6 +12,5 @@ coverage/
 .DS_Store
 .idea/
 EOF
-branch_structure.json
 
 .env*
