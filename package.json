@@ -7,12 +7,12 @@
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
-    "build": "node init && nest build",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "node init && nest start",
-    "start:dev": "node init && nest start --watch",
-    "start:debug": "node init && nest start --debug --watch",
-    "start:prod": "node init && node dist/main",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
     "test": "vitest run",
     "test:watch": "vitest"
   },
@@ -43,3 +43,4 @@
     "vitest": "^3.0.0"
   }
 }
+
